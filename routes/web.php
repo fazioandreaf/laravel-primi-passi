@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('landing', function () {
     return view('mainpage');
 });
+Route::get('pages/home', 'TestController@home');
+Route::get('pages.home2', 'TestController@home2');
