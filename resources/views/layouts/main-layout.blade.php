@@ -10,7 +10,6 @@
 <body>
     @include('components.header')
     @yield('content')
-   <img src="{{ asset('/storage/asset/images/jumbotron.jpg') }}" alt="">
     @include('components.footer')
 
 </body>
